@@ -1,0 +1,86 @@
+Atari Reinforcement Learning Project
+Project Overview
+In this project, the class will explore reinforcement learning across a selection of Atari 2600 environments. Each group will use Gymnasium and Stable-Baselines3 to train and evaluate reinforcement-learning agents.
+
+Each group will be assigned or select two Atari domains. The goal is to investigate the training process, evaluate agent performance at different stages, and document the results for both environments.
+
+Project Requirements
+1. Atari Domains
+Each group will work with two Atari 2600 domains.
+Use Gymnasium to create and interact with the environments.
+Use Stable-Baselines3 to implement and train the reinforcement-learning agents.
+2. Model Training and Evaluation
+For each Atari domain, your group must:
+
+Train at least one reinforcement-learning model.
+Record enough training data to evaluate how performance changes over time.
+Produce at least one learning curve showing the agent's performance during training.
+Save and test models from intermediate stages of training.
+Compare the performance of intermediate models with the final or best-performing model.
+Conduct example evaluation runs using the trained models.
+Your learning curves should use clearly labeled axes and identify the measurement being reported, such as episode reward, mean evaluation reward, training loss, episode length, or another appropriate performance measure.
+
+Status Updates
+Each group will provide one or two project status updates. Each update should report training results for at least one of the group's Atari domains.
+
+Each status update should include:
+
+Atari domain
+Model or algorithm used
+Number of training episodes or timesteps
+Time required for training
+Loss-function value, evaluation score, or another appropriate training metric
+An example run, such as a video, animation, or other demonstration of the agent
+A brief interpretation of the results obtained so far
+Post your group’s status updates to the following shared spreadsheet:
+
+Atari Reinforcement Learning Project Status Spreadsheet
+
+Final PDF Report
+Each group will submit a PDF report presenting the final results from both Atari domains.
+
+The report should include the following sections:
+
+Project overview
+Identify the two Atari domains.
+Briefly describe the objective and action space of each environment.
+Approach
+Identify the reinforcement-learning algorithm or algorithms used.
+Describe important model settings and training parameters.
+Explain any preprocessing, wrappers, evaluation procedures, or modifications used.
+Code overview
+Explain the major components of the project code.
+Describe how environments were created, models were trained, checkpoints were saved, and agents were evaluated.
+Include working links to all notebooks, repositories, or other code used for the project.
+Training results
+Provide learning curves for both Atari domains.
+Report the number of training episodes or timesteps.
+Report approximate training time.
+Present relevant loss values, evaluation scores, episode rewards, or other appropriate metrics.
+Intermediate-model testing
+Evaluate at least some intermediate checkpoints.
+Discuss how the agent's behavior changed as training progressed.
+Compare intermediate performance with the best-performing model.
+Discussion and conclusions
+Compare the results from the two domains.
+Discuss what worked well and what did not.
+Identify challenges, limitations, and possible improvements.
+Required Videos
+The final report must include links to four videos: two videos for each Atari domain.
+
+Domain	Early-Training Video	Best-Result Video
+Atari Domain 1	One example from an early stage of training	One example using the best-performing model
+Atari Domain 2	One example from an early stage of training	One example using the best-performing model
+Make sure that all video and code links are accessible to the instructor. Links that require permission should be shared with the appropriate viewing permissions before the report is submitted.
+
+Submission Checklist
+One PDF report covering both Atari domains
+Learning curves for both domains
+Results from intermediate-model testing
+Training-time and performance information
+Overview of the project code
+Working links to all project code
+Two videos for each domain: one early-training run and one best-result run
+One or two status updates posted to the shared spreadsheet
+Due Date
+Due by the end of the day on Monday, November 30, 2026.
